@@ -1,0 +1,19 @@
+{
+  "name": "sunvoltaic-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VictorPubh/sunvoltaic-js.git"
+  },
+  "author": "João Victor Sant'ana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorPubh/sunvoltaic-js/issues"
+  },
+  "homepage": "https://github.com/VictorPubh/sunvoltaic-js#readme"
+}
