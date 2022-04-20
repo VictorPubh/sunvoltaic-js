@@ -46,7 +46,7 @@ A classe Sunvoltaic recebe "apenas" 3 parâmetros:
 - **1° Valor da Conta Energética**
 - **2° Tipo de Atividade** (1 = `residential` 2 = `commercial` 3 = `agro` referenciados no Objeto `value_kwv` de sunvoltaic.config.js)
 - **3° O Objeto de Configuração** (O próprio sunvoltaic.config.js)
-```
+```javascript
 const Sunvoltaic = require('sunvoltaic-js')
 const SunvoltaicConfig = require('./sunvoltaic.config.js')
 
@@ -91,7 +91,7 @@ Você poderá adquirir:
 |`structure`| `number` | Estimativa de Peso da Estrutura (em Kg)
 
 Você pode desestruturar esses valores da Instância (como no exemplo acima) ou referenciando direto do Objeto, como por exemplo:
-```
+```javascript
 // ...
 
 const Calculator = new Sunvoltaic(250, 1, SunvoltaicConfig)
