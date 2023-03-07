@@ -98,7 +98,7 @@ const Calculator = new Sunvoltaic(250, 1, SunvoltaicConfig)
 
 console.log(`Potência gerada diária: ${Calculator.daily_power} kWh`)
 console.log(`Potência gerada mensal: ${Calculator.monthly_power} kWh`)
-console.log(`${Calculator.planted_trees} Árvores deixarão de ser cortadas em ${plant_age} anos.`)
+console.log(`${Calculator.planted_trees} Árvores deixarão de ser cortadas em ${Calculator.plant_age} anos.`)
 ```
 
 ## O que vem por aí?
@@ -106,7 +106,9 @@ console.log(`${Calculator.planted_trees} Árvores deixarão de ser cortadas em $
 - [ ]  Reescrever biblioteca utilizando Typescript
 - [ ]  Obter Radiação Solar apartir de API (ou similar)
 - [ ]  Substituir entrada de Radiação Solar por CEP
+
 Deixe as suas sugestões via Issue.
+
 ## Autores
 
 - [@victorpubh](https://www.github.com/victorpubh)
